@@ -20,7 +20,6 @@ app.get('/',(req,res)=>{
 });
 
 app.listen(port,(err)=>{
-
   if(err){
     console.error('Error', err);
   }else{
